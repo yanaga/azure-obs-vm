@@ -4,8 +4,8 @@ This repo contains various assets used to provision a Windows-based VM in
 Azure to run OBS for live streaming.
 
 ## Build VM
-Go to https://portal.azure.com/#create/Microsoft.Template and use the
-`build_vm_template.json` and the `template_parameters.json` to initially
+Go to https://portal.azure.com/#create/Microsoft.Template, select "Build your own template in the editor" and load the
+the `template_parameters.json` and `build_vm_template.json` (in that order) to initially
 build the base VM.
 
 When the provisioning process is complete, RDP connect to the VM and be sure
